@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html lang="en" >
+
+<head>
+  <meta charset="UTF-8">
+  <title>Login oAuth mobile friendly</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1.0, user-scalable=no"/>
+  
+  <link rel='stylesheet' href='http://fonts.googleapis.com/css?family=Fredoka+One|Righteous|Comfortaa|Press+Start+2P'>
+<link rel='stylesheet' href='https://jenil.github.io/bulmaswatch/cyborg/bulmaswatch.min.css'>
+<link rel='stylesheet' href='https://cdn.rawgit.com/konpa/devicon/df6431e323547add1b4cf45992913f15286456d3/devicon.min.css'>
+
+      <link rel="stylesheet" href="css/style.css">
+
+  
+</head>
+
+<body>
+
+  <!-- particles.js container -->
+<div id="particles-js"></div>
+<div id="particles-js2"></div>
+<div class="bg-overlay"></div>
+<!-- <div class="kb-info-overlay"></div> -->
+
+<div class="kb-card">
+  <div class="symbol">
+    <svg class="kb-white shake-chunk shake-constant" xmlns="http://www.w3.org/2000/svg" version="1" viewBox="0 0 231 223">
+        <path class="axe" d="M51 62l-6-4c2-2 3-5 6-6l17-5c4-1 6-2 8-6l11-18C65 5 39-1 13 0l5 32c2 13-6 24-11 35l-2 4-1 7h1l-5 8c10 7 21 11 31 16l1-1c4-9 4-9 13-5l4 1c18 1 33 8 47 18l14-20-22-16c-11-7-25-11-37-17zM230 169l-2-9c-1-3-3-4-6-4-19 3-35-5-50-16l-6-4-3 2v1l-11 8h-3l-7-7h-1l-11-6c-3-1-1-3-1-3l2-2 2-2v-1h-4c-4 1-8 2-12 0v1l8 3-8-3 6 4 1 1a7261 7261 0 0 0 20 17l13 9c8 6 18 11 27 15l32 15c6 2 7 2 11-3s5-10 3-16zm-21 3v-5h5l2 6-7-1z"/>
+        <g class="fist">
+          <path d="M133 130c-1 1-1 2 1 3a380 380 0 0 0 8 4l2-1 14-16 1-2v-2l-6-7h-3l-5 6-12 15zM169 127l-5-6-2-1-1 1-15 17v2l4 4h2l17-14v-3zM115 102l8 3 3 1 1-1 1-2 5-7v-3l-7-6-2-1-2 1-8 11v1c-1 1-1 2 1 3zM130 108l5 3 2 3v6l1-1 9-12v-2l-8-8h-4l-6 10 1 1z"/>
+          <path d="M152 169l5-8-3-2a262 262 0 0 1-37-29l-5-2-2-1 3-1c2-1 2-1 2-3l-2-4 1-1v1l3 3c2 2 4 2 7 2l7-1c2 0 3-1 3-2l1-5c0-2-1-3-3-3l-21-10c-2-1-2 0-4 1l-16 23v3l1 2 21 32c1 1 2 2 1 4l-3 27-4 24a76 76 0 0 0 47 0l-2-21v-27-2z"/>
+        </g>
+      </svg>
+    
+  </div>
+  <div class="loader"></div>
+  <div class="content">
+    <div class="logos">
+      <h1 class="kibibit-logo">k<!--
+--><span class="red">i</span><!--
+-->b<!--
+--><span class="blue">i</span><!--
+-->b<!--
+--><span class="yellow">i</span><!--
+-->t</h1>
+      <h1 class="achievibit">achievibit</h1>
+    </div>
+    <div class="kb-description">
+      <h3>Log-in</h3>
+      <p>Please Login with the cloud version control you want to integrate.</p>
+    </div>
+    <div class="kb-login-buttons">
+      <a class="button is-large is-fullwidth" href="googe.com">
+        <i class="devicon-github-plain"></i>
+        GitHub
+      </a>
+      <a class="button is-large is-fullwidth" href="googe.com">
+        <i class="devicon-gitlab-plain colored"></i>
+        GitLab
+      </a>
+      <a class="button is-large is-fullwidth" href="googe.com">
+        <i class="devicon-bitbucket-plain colored"></i>
+        BitBucket
+      </a>
+    </div>
+    <div class="kb-having-trouble has-text-warning" id="troubles" role="button" tabindex="0">Having trouble?</div>
+  </div>
+</div>
+
+<!-- particles.js lib - https://github.com/VincentGarreau/particles.js --> <script src="http://cdn.jsdelivr.net/particles.js/2.0.0/particles.min.js"></script> <!-- stats.js lib --> <script src="http://threejs.org/examples/js/libs/stats.min.js"></script>
+
+<svg xmlns="http://www.w3.org/2000/svg" version="1.1">
+  <defs>
+    <filter id="goo">
+      <feGaussianBlur in="SourceGraphic" stdDeviation="10" result="blur" />
+      <feColorMatrix in="blur" mode="matrix" values="1 0 0 0 0  0 1 0 0 0  0 0 1 0 0  0 0 0 60 -10" result="goo" />
+      <feBlend in="SourceGraphic" in2="goo" />
+    </filter>
+  </defs>
+</svg>
+  <script src='https://cdnjs.cloudflare.com/ajax/libs/jquery/3.3.1/jquery.min.js'></script>
+
+  
+
+    <script  src="js/index.js"></script>
+
+
+
+
+</body>
+
+</html>
