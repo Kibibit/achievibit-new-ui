@@ -10,7 +10,7 @@ $('#troubles').click(() => {
   $('.kb-card').addClass('transition');
   
   setTimeout(() => {
-    window.location.href = "/home";
+    window.location.href = "/achievibit-demo";
     $('.kb-card').removeClass('transition');
     $('.content').css({
     opacity: 1
