@@ -10,6 +10,7 @@ $('#troubles').click(() => {
   $('.kb-card').addClass('transition');
   
   setTimeout(() => {
+    window.location.href = "/home";
     $('.kb-card').removeClass('transition');
     $('.content').css({
     opacity: 1
